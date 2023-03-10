@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   font-family: 'Poppins', sans-serif; 
+   box-sizing: border-box;
+   color: rgb(75, 70, 70);
+
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 10px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+   
+    background-color: rgb(18, 155, 155);
+    cursor: pointer;
+    color: rgb(243, 243, 243);
+    border: 1px solid white;
+    border-radius: 5px;
+    width: fit-content;
+
+}  
+button:hover{
+    background-color: rgb(240, 238, 238);
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(184, 181, 181);
+}
+
+nav{
+
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav .logo{
+    font-weight: 1000;
+    font-size: xx-large;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 500px ;
+    
+}
+
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.search-field{
+    display: flex;
+    gap: 25px;
+    
+}
+input{
+    padding: 4px 10px;
+}
+.search-field button{
+    padding: 4px 10px;
+}
+
+
+.hero-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.hero-left-section h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero-left-section h1 span{
+    color: rgb(18, 155, 155) ;
+    font-weight: bolder;
+    font-size: 2.5 rem;
+}
+
+.hero-left-section p{
+    font-weight: 500;
+}
+
+.hero-left-section p span{
+    color: rgb(18, 155, 155);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.hero-right-section{
+    display: flex;
+    flex-direction: column;
+    /* width: 40%; */
+    gap: 30px;
+    align-items: center; 
+    justify-content: center;
+    
+    
+}
+
+.hero-right-section-btns{
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+   
+}
+
+.hero-right-section button{
+    padding:  4px 10px;
+
+}
+
+.hero-right-section img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+
+}
+footer{
+    gap: 1000px;
+    display: flex;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+footer p{
+    margin-bottom:-20px;
+    font-weight: 500;
+    font-size: small;
+}
+footer ul{
+    display: flex;
+   gap: 30px;
+   align-items: center;
+   justify-content: center;
+}
+
+footer ul li a i :hover{
+    height: 3px;
+    width: 3px;
+
+}
